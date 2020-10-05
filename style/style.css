@@ -1,0 +1,63 @@
+body {
+  /* overflow-x: hidden; */
+}
+
+.welcome {
+  min-height: 100vh;
+  background-image: url(../style/img/table2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.skills {
+  min-height: 100vh;
+}
+
+.projects {
+  min-height: 100vh;
+}
+.contact {
+  min-height: 70vh;
+}
+
+.last {
+  min-height: 15vh;
+  color: white;
+}
+
+.image {
+  border: 0;
+  border-radius: 4px;
+  display: inline-block;
+  position: relative;
+}
+
+.modal-dialog {
+  width: 375px;
+}
+
+iframe {
+  width: 340px;
+  height: 630px;
+}
+
+textarea {
+  resize: none;
+}
+
+/* #fondo-portada {
+  height: 30vh;
+  background: url("./img/skillsback.png");
+  background-position: 0px 130px;
+  background-attachment: fixed;
+  opacity: 1;
+  color: black;
+  padding-top: 50px;
+} */
