@@ -194,6 +194,43 @@
                         <p class="mt-2"><b>Features:</b> | Carousel | Fontawesome Icons | Autoplay Modal | Ekko Ligthbox | Slick Slider | Q&A Accordion  
                         </p>
                     </div>
+
+                    <div class="col-sm-12 col-md-12 col-lg-12 bg-light mt-5">
+
+                        <div class="row align-items-center mt-4 d-flex flex-wrap-reverse"">
+                            <div class="col-sm-12 col-md-6 col-lg-6">
+                                <img src="./style/img/elduquereal.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-6">
+                                <h2>El Duque Real - Single Page</h2>
+                                <p>El Duque Real is a single-page website. This project came to fulfill the 
+                                    needs our client had to be present on the web. Among the main features, 
+                                    we got an embedded tweet section that enables the easy postage of new 
+                                    info or offers the company does.</p>
+
+                                <ul class="list-inline list-unstyled d-flex justify-content-center">
+                                    <li class="list-inline-item"><a href="https://elduquereal.com/"
+                                            target="_blank" class="btn btn-outline-secondary"><i
+                                                class="fas fa-desktop"></i>
+                                            Website</i></a>
+                                    </li>
+                                    <li class="list-inline-item"><a href="#"
+                                            class="btn btn-outline-secondary d-none d-md-block" data-toggle="modal"
+                                            data-target="#myModal2"><i class="fas fa-mobile-alt">
+                                                Mobile</i></a>
+                                    </li>
+                                    <li class="list-inline-item"><a href="https://github.com/Luis0lo/Duque-Real"
+                                            target="_blank" class="btn btn-outline-secondary">
+                                            <i class="fab fa-github"> Github</i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <p class="mt-2"><b>Developed with:</b> | Bootstrap | Google Maps | Twitter | Form submissions |
+                            Netlify | Namecheap
+                        </p>
+                    </div>
+
                 </div>
 
 
@@ -222,14 +259,21 @@
 
                     <div class="col-lg-6 mt-2">
 
-                        <form>
+                        
+                        <form method="POST" action="/index.html" data-netlify='true' id="form2">
                             <div class="input-group mb-3">
                                 <div class="input-group-prepend">
                                     <span class="input-group-text">
                                         <i class="fas fa-user"></i>
                                     </span>
                                 </div>
-                                <input type="text" class="form-control" placeholder="Name" required>
+                                <input 
+                                type="text"
+                                name="name"
+                                id="name" 
+                                class="form-control" 
+                                placeholder="Name" 
+                                required>
                             </div>
 
                             <div class="input-group mb-3">
@@ -238,7 +282,13 @@
                                         <i class="fas fa-envelope"></i>
                                     </span>
                                 </div>
-                                <input type="text" class="form-control" placeholder="Email" required>
+                                <input 
+                                type="email"
+                                name="email"
+                                id="email" 
+                                class="form-control" 
+                                placeholder="Email" 
+                                required>
                             </div>
 
                             <div class="input-group mb-3">
@@ -248,7 +298,14 @@
                                     </span>
                                 </div>
 
-                                <textarea class="form-control" placeholder="Message" rows="5" required></textarea>
+                                <textarea 
+                                class="form-control"
+                                name="mesage"
+                                id="message" 
+                                placeholder="Message" 
+                                rows="5" 
+                                required
+                                ></textarea>
                             </div>
 
                             <input type="submit" value="Submit" class="btn btn-primary btn-block btn-lg">
@@ -299,6 +356,23 @@
                 </div>
                 <div class="modal-body">
                     <iframe src="https://luis0lo.github.io/Static-Web/" frameborder="0" "></iframe>
+                </div>
+                
+                <!-- <div class=" modal-footer">
+                        <button class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <div class="modal" id="myModal2">
+        <div class="modal-dialog ">
+            <div class="modal-content">
+                <div class=" modal-header">
+                    <h5 class="modal-title">El Duque Real</h5>
+                    <button class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <iframe src="https://elduquereal.com/" frameborder="0" "></iframe>
                 </div>
                 
                 <!-- <div class=" modal-footer">
