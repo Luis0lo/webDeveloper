@@ -1,10 +1,7 @@
-body {
-  /* overflow-x: hidden; */
-}
-
 .welcome {
   min-height: 100vh;
-  background-image: url(../style/img/table2.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../style/img/table4mp.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -51,13 +48,3 @@ iframe {
 textarea {
   resize: none;
 }
-
-/* #fondo-portada {
-  height: 30vh;
-  background: url("./img/skillsback.png");
-  background-position: 0px 130px;
-  background-attachment: fixed;
-  opacity: 1;
-  color: black;
-  padding-top: 50px;
-} */
