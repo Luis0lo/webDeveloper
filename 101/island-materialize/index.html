@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Import Google Icon Font-->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <!--materialize.css CDN-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <!--fontawesome.com CDN-->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+      crossorigin="anonymous"
+    />
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="/img/beach.jpg" type="image/png" />
+
+    <title>IsLandScape</title>
+  </head>
+
+  <body id="home" class="scrollspy">
+    <div class="navbar-fixed">
+      <nav class="green">
+        <div class="container">
+          <div class="nav-wrapper">
+            <a href="" class="brand-logo">IsLandScape</a>
+            <a href="" data-target="mobile-nav" class="sidenav-trigger">
+              <i class="material-icons">menu</i>
+            </a>
+            <ul class="right hide-on-med-and-down">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#search">Search</a></li>
+              <li><a href="#popular">Popular Places</a></li>
+              <li><a href="#gallery">Gallery</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!-- <a href="" data-target='mobile-nav' class="sidenav-trigger"></a> -->
+    <ul class="sidenav" id="mobile-nav">
+      <li><a class="sidenav-close" href="#home">Home</a></li>
+      <li><a class="sidenav-close" href="#search">Search</a></li>
+      <li><a class="sidenav-close" href="#popular">Popular Places</a></li>
+      <li><a class="sidenav-close" href="#gallery">Gallery</a></li>
+      <li><a class="sidenav-close" href="#contact">Contact</a></li>
+    </ul>
+    <!-- Init sidenav on Script -->
+    <!-- https://materializecss.com/sidenav.html -->
+
+    <!-- Slider Section -->
+    <!-- https://materializecss.com/media.html -->
+    <section class="slider">
+      <ul class="slides">
+        <li>
+          <img src="img/beach.jpg" />
+          <div class="caption right-align">
+            <h2 class="black-text">Take Your Dream Vacation</h2>
+            <h5 class="light black-text text-lighten-3 hide-on-small-only">
+              The coastline is 144 km long and boasts spectacular views.
+            </h5>
+          </div>
+        </li>
+        <li>
+          <img src="img/Sunrise1.jpg" />
+          <div class="caption left-align">
+            <h2>Welcome a New Day</h2>
+            <h5 class="light grey-text text-lighten-3 hide-on-small-only">
+              The world most beautiful sunrise is here.
+            </h5>
+          </div>
+        </li>
+        <li>
+          <img src="img/hike.jpg" />
+          <div class="caption right-align">
+            <h2 class="black-text">Discover Hidden Lanscapes</h2>
+            <h5 class="light grey-text text-lighten-3 hide-on-small-only">
+              Wide variety of hiking trails, a true hikers paradise.
+            </h5>
+          </div>
+        </li>
+      </ul>
+      <!-- Init on script -->
+    </section>
+
+    <!-- Section: Search -->
+    <section
+      id="search"
+      class="section section-search green darkeen-1 white-text center scrollspy"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col s12">
+            <h3>Search Places:</h3>
+            <div class="input-field">
+              <input
+                type="text"
+                class="white grey-text autocomplete"
+                id="autocomplete-input"
+                placeholder="Funchal, Calheta, etc..."
+              />
+              <!-- Init on Script ac -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section: Icons boxes -->
+    <section class="section section-icons grey lighten-4 center">
+      <div class="container">
+        <div class="row">
+          <div class="col s12 m4">
+            <div class="card-panel">
+              <i class="material-icons large green-text"> room </i>
+              <h4>Pick Where</h4>
+              <p>
+                Wherever you are, we can pick you up.<br />
+                24h service!
+              </p>
+            </div>
+          </div>
+          <div class="col s12 m4">
+            <div class="card-panel">
+              <i class="material-icons large green-text"> store </i>
+              <h4>Travel Shop</h4>
+              <p>
+                Many across the Island. Find out what they have to offer you.
+              </p>
+            </div>
+          </div>
+          <div class="col s12 m4">
+            <div class="card-panel">
+              <i class="material-icons large green-text"> directions_car </i>
+              <h4>Ride Cheap</h4>
+              <p>Unbeatable Prices. We Speak Your Language. Pay as you ride!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section: Popular Places-->
+    <section id="popular" class="section section_popular scrollspy">
+      <div class="container">
+        <div class="row">
+          <h4 class="center"><span class="green-text">Popular</span> Places</h4>
+          <div class="col s12 m4">
+            <div class="card">
+              <div class="card-image">
+                <img src="img/hike.jpg" alt="" />
+                <span class="card-title black-text">Top of 'Pico Ruivo'</span>
+              </div>
+              <div class="card-content">
+                Pico Ruivo is the highest point on Madeira, standing at 1,862m
+                above sea level. The summit of Pico Ruivo is accessible by foot,
+                and there are two challenging hiking trails which climb through
+                the stunning mountainous scenery of Madeira's interior.
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m4">
+            <div class="card">
+              <div class="card-image">
+                <img src="img/beach.jpg" alt="" />
+                <span class="card-title">Camara de Lobos</span>
+              </div>
+              <div class="card-content">
+                Is a pretty little fishing village set in a peaceful cove just.
+                With its white-washed buildings with red-tiled roofs and idyllic
+                sea views, it’s the stuff postcards are made of. It’s so close
+                to the city centre and easily reachable by bus, so it’s a
+                popular day trip.
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m4">
+            <div class="card">
+              <div class="card-image">
+                <img src="img/Sunrise.jpg" alt="" />
+                <span class="card-title">Pico do Ariero</span>
+              </div>
+              <div class="card-content">
+                Pico do Arieiro, at 1,818 m high, is Madeira Island's third
+                highest peak. Most days, visitors can stand and look down on the
+                clouds. The air is fresh and clear and the sun is very bright.
+                On a clear day it is possible to see the neighbouring island of
+                Porto Santo, 30 miles to the northeast.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section: SocialMedia -->
+    <section class="section section-follow green darkeen-2 white-text center">
+      <div class="container">
+        <div class="row">
+          <div class="col s12">
+            <h4>Follow IsLandScape</h4>
+            <p>Follow us on social Media for special offers!</p>
+            <a
+              href="https://www.linkedin.com/in/with-luisrodrigues/"
+              target="_blank"
+              class="white-text"
+            >
+              <i class="fab fa-facebook fa-4x mr1"></i>
+            </a>
+            <a
+              href="https://twitter.com/withluis1"
+              target="_blank"
+              class="white-text"
+            >
+              <i class="fab fa-twitter fa-4x mr1"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/with-luisrodrigues/"
+              target="_blank"
+              class="white-text"
+            >
+              <i class="fab fa-linkedin fa-4x mr1"></i>
+            </a>
+            <a
+              href="https://twitter.com/withluis1"
+              target="_blank"
+              class="white-text"
+            >
+              <i class="fab fa-pinterest fa-4x mr1"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section: Gallery -->
+
+    <section id="gallery" class="section section-gallery scrollspy">
+      <div class="container">
+        <h4 class="center"><span class="green-text">Photo</span> Gallery</h4>
+        <div class="row">
+          <div class="col s12 m3">
+            <img
+              src="https://source.unsplash.com/1600x900/?madeira"
+              alt=""
+              class="materialboxed responsive-img"
+            />
+          </div>
+          <div class="col s12 m3">
+            <img
+              src="https://source.unsplash.com/1600x900/?madeira-beach"
+              alt=""
+              class="materialboxed responsive-img"
+            />
+          </div>
+          <div class="col s12 m3">
+            <img
+              src="https://source.unsplash.com/1600x900/?madeira-flowers"
+              alt=""
+              class="materialboxed responsive-img"
+            />
+          </div>
+          <div class="col s12 m3">
+            <img
+              src="https://source.unsplash.com/1600x900/?funchal"
+              alt=""
+              class="materialboxed responsive-img"
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s12 m3">
+            <img
+              src="https://source.unsplash.com/1600x900/?madeira-beach1"
+              alt=""
+              class="materialboxed responsive-img"
+            />
+          </div>
+          <div class="col s12 m3">
+            <img
+              src="https://source.unsplash.com/1600x900/?machico"
+              alt=""
+              class="materialboxed responsive-img"
+            />
+          </div>
+          <div class="col s12 m3">
+            <img
+              src="https://source.unsplash.com/1600x900/?madeira-fruit"
+              alt=""
+              class="materialboxed responsive-img"
+            />
+          </div>
+          <div class="col s12 m3">
+            <img
+              src="https://source.unsplash.com/1600x900/?madeira-night"
+              alt=""
+              class="materialboxed responsive-img"
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s12 m3">
+            <img
+              src="https://source.unsplash.com/1600x900/?madeira-poncha"
+              alt=""
+              class="materialboxed responsive-img"
+            />
+          </div>
+          <div class="col s12 m3">
+            <img
+              src="https://source.unsplash.com/1600x900/?madeira-clif"
+              alt=""
+              class="materialboxed responsive-img"
+            />
+          </div>
+          <div class="col s12 m3">
+            <img
+              src="https://source.unsplash.com/1600x900/?madeira-carnival"
+              alt=""
+              class="materialboxed responsive-img"
+            />
+          </div>
+          <div class="col s12 m3">
+            <img
+              src="https://source.unsplash.com/1600x900/?funchal-pub"
+              alt=""
+              class="materialboxed responsive-img"
+            />
+          </div>
+        </div>
+        <!-- init MaterialBox  -->
+      </div>
+    </section>
+
+    <!-- Section: Video -->
+    <section class="section section-video green darkeen-2 white-text center">
+      <div class="container">
+        <h4 class="center">Take a Look!</h4>
+        <div class="video-container">
+          <iframe
+            src="https://www.youtube.com/embed/cusSBT_u8BI"
+            title="Madeira Island"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section: Contact -->
+    <section id="contact" class="section section-contact scrollspy">
+      <div class="container">
+        <div class="row">
+          <div class="col s12 m6">
+            <div class="card-panel green white-text center">
+              <i class="medium material-icons">email</i>
+              <h5>Contact Us For Booking</h5>
+              <p>
+                Please get in touch and our expert support team will answer all
+                your questions. We will be sure to get back to you as soon as
+                possible.
+              </p>
+            </div>
+            <ul class="collection with-header">
+              <li class="collection-header">
+                <h4>Find Us</h4>
+              </li>
+              <li class="collection-item">55 Rua das Flores, Funchal</li>
+              <li class="collection-item">4 Fonte Nova, Ribeira Brava</li>
+            </ul>
+          </div>
+          <div class="col s12 m6">
+            <div class="card-panel grey lighten-3">
+              <h5>Please fill out this form</h5>
+              <div class="input-field">
+                <input type="text" placeholder="Name" id="name" />
+              </div>
+              <div class="input-field">
+                <input type="text" placeholder="Email" id="email" />
+              </div>
+              <div class="input-field">
+                <input type="text" placeholder="Phone" id="phone" />
+              </div>
+              <div class="input-field">
+                <textarea
+                  class="materialize-textarea"
+                  placeholder="Enter Message"
+                  id=""
+                  cols="30"
+                  rows="10"
+                ></textarea>
+              </div>
+              <input type="submit" value="Submit" class="btn" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section: Footer -->
+    <footer class="section green darken-4 white-text center">
+      <p class="flow-text">IsLandScape &copy; 2021</p>
+    </footer>
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+      //Sidenav
+      const sideNav = document.querySelector('.sidenav');
+      M.Sidenav.init(sideNav, {});
+      //Slider
+      const slider = document.querySelector('.slider');
+      M.Slider.init(slider, {
+        indicators: false,
+        height: 500,
+        transition: 500,
+        interval: 6000,
+      });
+      // Autocomplete
+      const ac = document.querySelector('.autocomplete');
+      M.Autocomplete.init(ac, {
+        data: {
+          Funchal: null,
+          Calheta: null,
+          'Ponta do Sol': null,
+          Campanario: null,
+          'Ribeira Brava': null,
+          Machico: null,
+        },
+      });
+      // Material Box
+      const mb = document.querySelectorAll('.materialboxed');
+      M.Materialbox.init(mb, {});
+      //Scrollspy
+      const ss = document.querySelectorAll('.scrollspy');
+      M.ScrollSpy.init(ss, {});
+    </script>
+  </body>
+</html>
